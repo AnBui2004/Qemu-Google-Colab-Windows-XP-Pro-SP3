@@ -10,7 +10,7 @@ sudo qemu-system-x86_64 \
   -m 8G \
   -cpu EPYC \
   -boot order=d \
-  -drive file=XP.qcow2 \
+  -drive file=XP.img \
   -drive file=XP.iso,media=cdrom \
   -drive file=MyPal.iso,media=cdrom \
   -device usb-ehci,id=usb,bus=pci.0,addr=0x4 \
