@@ -3,7 +3,7 @@ sudo apt install qemu-utils -y
 sudo apt-get install -y qemu-system-x86-64
 qemu-img create -f raw XP.img 64G
 wget -O MyPal.iso 'https://drive.google.com/uc?&id=1S9TlVioj_AWcHbfaYoPd2B9GvACiIHvK&export=download'
-wget -O XP.iso 'https://dl.bobpony.com/windows/xp/home/en_winxp_home_with_sp2.iso'
+wget -O XP.iso 'https://www.dropbox.com/s/eyz5apkkwqwtrvx/Windows%20XP%20Professional%20%28x86%29.iso?dl=1'
 
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 sudo qemu-system-x86_64 \
